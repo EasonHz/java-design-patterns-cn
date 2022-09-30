@@ -25,14 +25,16 @@
 package com.hz.abstractfactory;
 
 /**
- * ElfCastle.
+ * 精灵的城堡
+ *
+ * @author hz
  */
 public class ElfCastle implements Castle {
 
-  static final String DESCRIPTION = "This is the elven castle!";
+    static final String DESCRIPTION = "这是一座精灵的城堡!";
 
-  @Override
-  public String getDescription() {
-    return DESCRIPTION;
-  }
+    @Override
+    public String getDescription() {
+        return DESCRIPTION;
+    }
 }

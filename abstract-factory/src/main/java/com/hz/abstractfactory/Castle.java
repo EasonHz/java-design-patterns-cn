@@ -25,9 +25,16 @@
 package com.hz.abstractfactory;
 
 /**
- * Castle interface.
+ * 城堡接口
+ *
+ * @author hz
  */
 public interface Castle {
 
-  String getDescription();
+    /**
+     * 获取关于城堡的描述信息
+     *
+     * @return 城堡信息
+     */
+    String getDescription();
 }

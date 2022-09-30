@@ -25,14 +25,16 @@
 package com.hz.abstractfactory;
 
 /**
- * ElfKing.
+ * 精灵王接口
+ *
+ * @author hz
  */
 public class ElfKing implements King {
 
-  static final String DESCRIPTION = "This is the elven king!";
+    static final String DESCRIPTION = "这是一位精灵王!";
 
-  @Override
-  public String getDescription() {
-    return DESCRIPTION;
-  }
+    @Override
+    public String getDescription() {
+        return DESCRIPTION;
+    }
 }

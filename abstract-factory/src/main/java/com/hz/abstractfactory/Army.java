@@ -25,9 +25,16 @@
 package com.hz.abstractfactory;
 
 /**
- * Army interface.
+ * 军队接口
+ *
+ * @author hz
  */
 public interface Army {
 
-  String getDescription();
+    /**
+     * 获取关于军队的描述信息
+     *
+     * @return 军队信息
+     */
+    String getDescription();
 }

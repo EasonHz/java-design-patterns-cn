@@ -25,11 +25,12 @@
 package com.hz.abstractfactory;
 
 /**
- * OrcArmy.
+ * 兽人军队
+ * @author hz
  */
 public class OrcArmy implements Army {
 
-  static final String DESCRIPTION = "This is the orc army!";
+  static final String DESCRIPTION = "这是一支兽人军队!";
 
   @Override
   public String getDescription() {

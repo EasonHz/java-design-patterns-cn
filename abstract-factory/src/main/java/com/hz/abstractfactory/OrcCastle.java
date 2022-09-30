@@ -25,14 +25,16 @@
 package com.hz.abstractfactory;
 
 /**
- * OrcCastle.
+ * 兽人城堡
+ *
+ * @author hz
  */
 public class OrcCastle implements Castle {
 
-  static final String DESCRIPTION = "This is the orc castle!";
+    static final String DESCRIPTION = "这是一个兽人城堡!";
 
-  @Override
-  public String getDescription() {
-    return DESCRIPTION;
-  }
+    @Override
+    public String getDescription() {
+        return DESCRIPTION;
+    }
 }

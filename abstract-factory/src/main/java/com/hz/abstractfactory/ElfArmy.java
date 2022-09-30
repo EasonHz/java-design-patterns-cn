@@ -25,14 +25,16 @@
 package com.hz.abstractfactory;
 
 /**
- * ElfArmy.
+ * 精灵军队
+ *
+ * @author hz
  */
 public class ElfArmy implements Army {
 
-  static final String DESCRIPTION = "This is the elven army!";
+    static final String DESCRIPTION = "这是一支精灵军队！";
 
-  @Override
-  public String getDescription() {
-    return DESCRIPTION;
-  }
+    @Override
+    public String getDescription() {
+        return DESCRIPTION;
+    }
 }

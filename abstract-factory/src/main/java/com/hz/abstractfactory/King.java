@@ -25,9 +25,16 @@
 package com.hz.abstractfactory;
 
 /**
- * King interface.
+ * 国王接口
+ *
+ * @author hz
  */
 public interface King {
 
-  String getDescription();
+    /**
+     * 获取国王的信息
+     *
+     * @return 国王信息
+     */
+    String getDescription();
 }

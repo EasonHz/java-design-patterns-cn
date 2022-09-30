@@ -27,38 +27,41 @@ package com.hz.abstractfactory;
 import lombok.Getter;
 import lombok.Setter;
 
+/**
+ * @author hz
+ */
 @Getter
 @Setter
 public class Kingdom {
 
-  private King king;
-  private Castle castle;
-  private Army army;
-
-  /**
-   * The factory of kingdom factories.
-   */
-  public static class FactoryMaker {
+    private King king;
+    private Castle castle;
+    private Army army;
 
     /**
-     * Enumeration for the different types of Kingdoms.
+     * 王国工厂，创建王国的具体实现
      */
-    public enum KingdomType {
-      ELF, ORC
-    }
+    public static class FactoryMaker {
 
-    /**
-     * The factory method to create KingdomFactory concrete objects.
-     */
-    public static KingdomFactory makeFactory(KingdomType type) {
-      switch (type) {
-        case ELF:
-          return new ElfKingdomFactory();
-        case ORC:
-          return new OrcKingdomFactory();
-        default:
-          throw new IllegalArgumentException("KingdomType not supported.");
-      }
+        /**
+         * 不同类型王国的枚举
+         */
+        public enum KingdomType {
+            ELF, ORC
+        }
+
+        /**
+         * 创建KingdomFactory具体对象的工厂方法
+         */
+        public static KingdomFactory makeFactory(KingdomType type) {
+            switch (type) {
+                case ELF:
+                    return new ElfKingdomFactory();
+                case ORC:
+                    return new OrcKingdomFactory();
+                default:
+                    throw new IllegalArgumentException("不支持的王国类型！");
+            }
+        }
     }
-  }
 }

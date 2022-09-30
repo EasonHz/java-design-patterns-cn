@@ -25,23 +25,25 @@
 package com.hz.abstractfactory;
 
 /**
- * ElfKingdomFactory concrete factory.
+ * 创建精灵王国的工厂
+ *
+ * @author hz
  */
 public class ElfKingdomFactory implements KingdomFactory {
 
-  @Override
-  public Castle createCastle() {
-    return new ElfCastle();
-  }
+    @Override
+    public Castle createCastle() {
+        return new ElfCastle();
+    }
 
-  @Override
-  public King createKing() {
-    return new ElfKing();
-  }
+    @Override
+    public King createKing() {
+        return new ElfKing();
+    }
 
-  @Override
-  public Army createArmy() {
-    return new ElfArmy();
-  }
+    @Override
+    public Army createArmy() {
+        return new ElfArmy();
+    }
 
 }

@@ -25,14 +25,16 @@
 package com.hz.abstractfactory;
 
 /**
- * OrcKing.
+ * 兽人王
+ *
+ * @author Brand
  */
 public class OrcKing implements King {
 
-  static final String DESCRIPTION = "This is the orc king!";
+    static final String DESCRIPTION = "这是一个兽人王!";
 
-  @Override
-  public String getDescription() {
-    return DESCRIPTION;
-  }
+    @Override
+    public String getDescription() {
+        return DESCRIPTION;
+    }
 }

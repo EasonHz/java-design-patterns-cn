@@ -25,14 +25,30 @@
 package com.hz.abstractfactory;
 
 /**
- * KingdomFactory factory interface.
+ * 创建王国的工厂接口
+ * @author hz
  */
 public interface KingdomFactory {
 
-  Castle createCastle();
+    /**
+     * 给王国创建一个城堡
+     *
+     * @return 创建好的城堡
+     */
+    Castle createCastle();
 
-  King createKing();
+    /**
+     * 给王国任命一个国王
+     *
+     * @return 任命好的国王
+     */
+    King createKing();
 
-  Army createArmy();
+    /**
+     * 给王国创建一支军队
+     *
+     * @return 创建好的军队
+     */
+    Army createArmy();
 
 }

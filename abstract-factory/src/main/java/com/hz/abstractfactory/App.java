@@ -27,61 +27,58 @@ package com.hz.abstractfactory;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * The Abstract Factory pattern provides a way to encapsulate a group of individual factories that
- * have a common theme without specifying their concrete classes. In normal usage, the client
- * software creates a concrete implementation of the abstract factory and then uses the generic
- * interface of the factory to create the concrete objects that are part of the theme. The client
- * does not know (or care) which concrete objects it gets from each of these internal factories,
- * since it uses only the generic interfaces of their products. This pattern separates the details
- * of implementation of a set of objects from their general usage and relies on object composition,
- * as object creation is implemented in methods exposed in the factory interface.
+ * “工厂”是创建产品(对象)的地方，其目的是将产品的创建与产品的使用分离。
+ * 抽象工厂模式的目的，是将若干抽象产品的接口与不同主题产品的具体实现分离开。
+ * 这样就能在增加新的具体工厂的时候，不用修改引用抽象工厂的客户端代码
  *
- * <p>The essence of the Abstract Factory pattern is a factory interface ({@link KingdomFactory})
- * and its implementations ( {@link ElfKingdomFactory}, {@link OrcKingdomFactory}). The example uses
- * both concrete implementations to create a king, a castle, and an army.
+ * <p>抽象工厂模式的本质是工厂接口 ({@link KingdomFactory})
+ * 及其具体实现 ( {@link ElfKingdomFactory}, {@link OrcKingdomFactory}). 这个例子使用了这两种具体实现来创建国王、城堡和军队。
+ *
+ * @author hz
  */
 @Slf4j
 public class App implements Runnable {
 
-  private final Kingdom kingdom = new Kingdom();
+    private final Kingdom kingdom = new Kingdom();
 
-  public Kingdom getKingdom() {
-    return kingdom;
-  }
+    public Kingdom getKingdom() {
+        return kingdom;
+    }
 
-  /**
-   * Program entry point.
-   *
-   * @param args command line args
-   */
-  public static void main(String[] args) {
-    var app = new App();
-    app.run();
-  }
+    /**
+     * 程序入口
+     *
+     * @param args 参数
+     */
+    public static void main(String[] args) {
+        var app = new App();
+        app.run();
+    }
 
-  @Override
-  public void run() {
-    LOGGER.info("elf kingdom");
-    createKingdom(Kingdom.FactoryMaker.KingdomType.ELF);
-    LOGGER.info(kingdom.getArmy().getDescription());
-    LOGGER.info(kingdom.getCastle().getDescription());
-    LOGGER.info(kingdom.getKing().getDescription());
+    @Override
+    public void run() {
+        LOGGER.info("开始创建精灵王国...");
+        createKingdom(Kingdom.FactoryMaker.KingdomType.ELF);
+        LOGGER.info(kingdom.getArmy().getDescription());
+        LOGGER.info(kingdom.getCastle().getDescription());
+        LOGGER.info(kingdom.getKing().getDescription());
 
-    LOGGER.info("orc kingdom");
-    createKingdom(Kingdom.FactoryMaker.KingdomType.ORC);
-    LOGGER.info(kingdom.getArmy().getDescription());
-    LOGGER.info(kingdom.getCastle().getDescription());
-    LOGGER.info(kingdom.getKing().getDescription());
-  }
+        LOGGER.info("开始创建兽人王国...");
+        createKingdom(Kingdom.FactoryMaker.KingdomType.ORC);
+        LOGGER.info(kingdom.getArmy().getDescription());
+        LOGGER.info(kingdom.getCastle().getDescription());
+        LOGGER.info(kingdom.getKing().getDescription());
+    }
 
-  /**
-   * Creates kingdom.
-   * @param kingdomType type of Kingdom
-   */
-  public void createKingdom(final Kingdom.FactoryMaker.KingdomType kingdomType) {
-    final KingdomFactory kingdomFactory = Kingdom.FactoryMaker.makeFactory(kingdomType);
-    kingdom.setKing(kingdomFactory.createKing());
-    kingdom.setCastle(kingdomFactory.createCastle());
-    kingdom.setArmy(kingdomFactory.createArmy());
-  }
+    /**
+     * 创建王国
+     *
+     * @param kingdomType 要创建的王国类型
+     */
+    public void createKingdom(final Kingdom.FactoryMaker.KingdomType kingdomType) {
+        final KingdomFactory kingdomFactory = Kingdom.FactoryMaker.makeFactory(kingdomType);
+        kingdom.setKing(kingdomFactory.createKing());
+        kingdom.setCastle(kingdomFactory.createCastle());
+        kingdom.setArmy(kingdomFactory.createArmy());
+    }
 }
