@@ -71,7 +71,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.servicelayer.app.App</mainClass>
+                  <mainClass>com.hz.servicelayer.app.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

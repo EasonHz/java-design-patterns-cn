@@ -26,8 +26,8 @@ package com;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import com.iluwatar.leaderfollowers.Task;
-import com.iluwatar.leaderfollowers.TaskSet;
+import com.hz.leaderfollowers.Task;
+import com.hz.leaderfollowers.TaskSet;
 import org.junit.jupiter.api.Test;
 
 /**

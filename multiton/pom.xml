@@ -55,7 +55,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.multiton.App</mainClass>
+                  <mainClass>com.hz.multiton.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

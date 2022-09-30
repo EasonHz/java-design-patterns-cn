@@ -50,7 +50,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.tolerantreader.App</mainClass>
+                  <mainClass>com.hz.tolerantreader.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

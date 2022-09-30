@@ -50,7 +50,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.lazy.loading.App</mainClass>
+                  <mainClass>com.hz.lazy.loading.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

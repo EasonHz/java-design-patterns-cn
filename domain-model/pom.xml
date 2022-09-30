@@ -63,7 +63,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.domainmodel.App</mainClass>
+                  <mainClass>com.hz.domainmodel.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

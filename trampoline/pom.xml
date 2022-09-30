@@ -57,7 +57,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.trampoline.TrampolineApp</mainClass>
+                  <mainClass>com.hz.trampoline.TrampolineApp</mainClass>
                 </manifest>
               </archive>
             </configuration>

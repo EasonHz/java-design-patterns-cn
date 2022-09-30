@@ -81,7 +81,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.eip.wiretap.App</mainClass>
+                  <mainClass>com.hz.eip.wiretap.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

@@ -50,7 +50,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.sharding.App</mainClass>
+                  <mainClass>com.hz.sharding.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

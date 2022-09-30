@@ -55,7 +55,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.doubledispatch.App</mainClass>
+                  <mainClass>com.hz.doubledispatch.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

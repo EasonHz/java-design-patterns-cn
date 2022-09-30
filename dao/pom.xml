@@ -58,7 +58,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.dao.App</mainClass>
+                  <mainClass>com.hz.dao.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

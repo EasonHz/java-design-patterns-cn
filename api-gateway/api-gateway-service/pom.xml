@@ -75,7 +75,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.api.gateway.App</mainClass>
+                  <mainClass>com.hz.api.gateway.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

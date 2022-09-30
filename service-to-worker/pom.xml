@@ -34,7 +34,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.servicetoworker.App</mainClass>
+                  <mainClass>com.hz.servicetoworker.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

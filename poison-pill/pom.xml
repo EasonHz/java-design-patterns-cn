@@ -55,7 +55,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.poison.pill.App</mainClass>
+                  <mainClass>com.hz.poison.pill.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

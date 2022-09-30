@@ -22,15 +22,15 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package com.iluwatar.claimcheckpattern.utility;
+package com.hz.claimcheckpattern.utility;
 
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.*;
 
 import com.azure.core.util.BinaryData;
 import com.azure.messaging.eventgrid.EventGridPublisherClient;
-import com.iluwatar.claimcheckpattern.domain.Message;
-import com.iluwatar.claimcheckpattern.domain.UsageDetail;
+import com.hz.claimcheckpattern.domain.Message;
+import com.hz.claimcheckpattern.domain.UsageDetail;
 import java.util.logging.Logger;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

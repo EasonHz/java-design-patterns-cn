@@ -50,7 +50,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.masterworker.App</mainClass>
+                  <mainClass>com.hz.masterworker.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

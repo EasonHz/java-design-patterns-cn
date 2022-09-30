@@ -54,7 +54,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.doublebuffer.App</mainClass>
+                  <mainClass>com.hz.doublebuffer.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

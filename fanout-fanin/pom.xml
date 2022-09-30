@@ -50,7 +50,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.fanout.fanin.App</mainClass>
+                  <mainClass>com.hz.fanout.fanin.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

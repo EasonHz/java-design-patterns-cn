@@ -70,7 +70,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.inventory.microservices.InventoryApplication</mainClass>
+                  <mainClass>com.hz.inventory.microservices.InventoryApplication</mainClass>
                 </manifest>
               </archive>
             </configuration>

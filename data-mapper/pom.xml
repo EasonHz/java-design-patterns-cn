@@ -50,7 +50,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.datamapper.App</mainClass>
+                  <mainClass>com.hz.datamapper.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

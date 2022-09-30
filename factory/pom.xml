@@ -52,7 +52,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.factory.App</mainClass>
+                  <mainClass>com.hz.factory.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

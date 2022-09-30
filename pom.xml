@@ -546,7 +546,7 @@
           <!-- if outputDirectory is not set explicitly it will default to your build dir -->
           <outputDirectory>${project.basedir}/etc</outputDirectory>
           <packages>
-            <param>com.iluwatar</param>
+            <param>com.hz</param>
           </packages>
           <includeMainDirectory>true</includeMainDirectory>
           <includeTestDirectory>false</includeTestDirectory>

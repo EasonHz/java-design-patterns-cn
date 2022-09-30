@@ -51,7 +51,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.leaderelection.bully.BullyApp</mainClass>
+                  <mainClass>com.hz.leaderelection.bully.BullyApp</mainClass>
                 </manifest>
               </archive>
               <finalName>${project.artifactId}-Bully</finalName>
@@ -62,7 +62,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.leaderelection.ring.RingApp</mainClass>
+                  <mainClass>com.hz.leaderelection.ring.RingApp</mainClass>
                 </manifest>
               </archive>
               <finalName>${project.artifactId}-Ring</finalName>

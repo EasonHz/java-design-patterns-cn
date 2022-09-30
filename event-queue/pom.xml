@@ -50,7 +50,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.event.queue.App</mainClass>
+                  <mainClass>com.hz.event.queue.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

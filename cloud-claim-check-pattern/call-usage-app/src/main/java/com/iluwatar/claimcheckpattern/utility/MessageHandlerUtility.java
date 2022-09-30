@@ -22,7 +22,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package com.iluwatar.claimcheckpattern.utility;
+package com.hz.claimcheckpattern.utility;
 
 import com.azure.core.util.BinaryData;
 import com.azure.core.util.serializer.TypeReference;
@@ -30,8 +30,8 @@ import com.azure.storage.blob.BlobClient;
 import com.azure.storage.blob.BlobContainerClient;
 import com.azure.storage.blob.BlobServiceClient;
 import com.azure.storage.blob.BlobServiceClientBuilder;
-import com.iluwatar.claimcheckpattern.domain.Message;
-import com.iluwatar.claimcheckpattern.domain.MessageReference;
+import com.hz.claimcheckpattern.domain.Message;
+import com.hz.claimcheckpattern.domain.MessageReference;
 import java.util.logging.Logger;
 
 /**

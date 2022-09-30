@@ -57,7 +57,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.adapter.App</mainClass>
+                  <mainClass>com.hz.adapter.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

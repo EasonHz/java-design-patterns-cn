@@ -60,7 +60,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.intercepting.filter.App</mainClass>
+                  <mainClass>com.hz.intercepting.filter.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

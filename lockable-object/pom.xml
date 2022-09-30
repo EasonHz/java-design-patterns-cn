@@ -52,7 +52,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.lockableobject.App</mainClass>
+                  <mainClass>com.hz.lockableobject.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

@@ -57,7 +57,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.model.view.presenter.App</mainClass>
+                  <mainClass>com.hz.model.view.presenter.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

@@ -77,7 +77,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.acyclicvisitor.App</mainClass>
+                  <mainClass>com.hz.acyclicvisitor.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

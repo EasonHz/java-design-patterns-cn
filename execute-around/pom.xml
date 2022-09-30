@@ -55,7 +55,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.execute.around.App</mainClass>
+                  <mainClass>com.hz.execute.around.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

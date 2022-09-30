@@ -50,7 +50,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.roleobject.ApplicationRoleObject</mainClass>
+                  <mainClass>com.hz.roleobject.ApplicationRoleObject</mainClass>
                 </manifest>
               </archive>
             </configuration>

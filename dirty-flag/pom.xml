@@ -62,7 +62,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.dirtyflag.App</mainClass>
+                  <mainClass>com.hz.dirtyflag.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

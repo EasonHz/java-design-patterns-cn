@@ -54,7 +54,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.dependency.injection.App</mainClass>
+                  <mainClass>com.hz.dependency.injection.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

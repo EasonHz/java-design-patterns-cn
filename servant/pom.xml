@@ -55,7 +55,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.servant.App</mainClass>
+                  <mainClass>com.hz.servant.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

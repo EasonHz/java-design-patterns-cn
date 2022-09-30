@@ -50,7 +50,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.composite-entity.com.iluwatar.compositeentity.App</mainClass>
+                  <mainClass>com.hz.composite-entity.com.hz.compositeentity.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

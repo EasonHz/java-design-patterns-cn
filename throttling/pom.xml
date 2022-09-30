@@ -50,7 +50,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.throttling.App</mainClass>
+                  <mainClass>com.hz.throttling.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

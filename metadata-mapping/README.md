@@ -91,7 +91,7 @@ Then we write a `xml` file to show the mapping between the table and the object:
     "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-  <class name="com.iluwatar.metamapping.model.User" table="user">
+  <class name="com.hz.metamapping.model.User" table="user">
     <id name="id" type="java.lang.Integer" column="id">
       <generator class="native"/>
     </id>
@@ -121,7 +121,7 @@ We use `Hibernate` to resolve the mapping and connect to our database, here's it
     <property name="show_sql">false</property>
     <!-- Drop and re-create the database schema on startup -->
     <property name="hbm2ddl.auto">create-drop</property>
-    <mapping resource="com/iluwatar/metamapping/model/User.hbm.xml" />
+    <mapping resource="com/hz/metamapping/model/User.hbm.xml" />
   </session-factory>
 </hibernate-configuration>
 ```

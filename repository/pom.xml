@@ -82,7 +82,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.repository.App</mainClass>
+                  <mainClass>com.hz.repository.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

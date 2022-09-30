@@ -22,13 +22,13 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package com.iluwatar.claimcheckpattern.producer.calldetails.functions;
+package com.hz.claimcheckpattern.producer.calldetails.functions;
 
-import com.iluwatar.claimcheckpattern.HttpResponseMessageMock;
-import com.iluwatar.claimcheckpattern.domain.MessageHeader;
-import com.iluwatar.claimcheckpattern.domain.UsageDetail;
-import com.iluwatar.claimcheckpattern.utility.EventHandlerUtility;
-import com.iluwatar.claimcheckpattern.utility.MessageHandlerUtility;
+import com.hz.claimcheckpattern.HttpResponseMessageMock;
+import com.hz.claimcheckpattern.domain.MessageHeader;
+import com.hz.claimcheckpattern.domain.UsageDetail;
+import com.hz.claimcheckpattern.utility.EventHandlerUtility;
+import com.hz.claimcheckpattern.utility.MessageHandlerUtility;
 import com.microsoft.azure.functions.ExecutionContext;
 import com.microsoft.azure.functions.HttpRequestMessage;
 import com.microsoft.azure.functions.HttpResponseMessage;

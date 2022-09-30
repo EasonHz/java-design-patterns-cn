@@ -50,7 +50,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.property.App</mainClass>
+                  <mainClass>com.hz.property.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

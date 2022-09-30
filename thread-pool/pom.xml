@@ -55,7 +55,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.threadpool.App</mainClass>
+                  <mainClass>com.hz.threadpool.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

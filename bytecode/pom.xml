@@ -50,7 +50,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.bytecode.App</mainClass>
+                  <mainClass>com.hz.bytecode.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

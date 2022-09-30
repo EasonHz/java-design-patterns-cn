@@ -22,15 +22,15 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-import static com.iluwatar.event.sourcing.app.App.ACCOUNT_OF_DAENERYS;
-import static com.iluwatar.event.sourcing.app.App.ACCOUNT_OF_JON;
+import static com.hz.event.sourcing.app.App.ACCOUNT_OF_DAENERYS;
+import static com.hz.event.sourcing.app.App.ACCOUNT_OF_JON;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import com.iluwatar.event.sourcing.event.AccountCreateEvent;
-import com.iluwatar.event.sourcing.event.MoneyDepositEvent;
-import com.iluwatar.event.sourcing.event.MoneyTransferEvent;
-import com.iluwatar.event.sourcing.processor.DomainEventProcessor;
-import com.iluwatar.event.sourcing.state.AccountAggregate;
+import com.hz.event.sourcing.event.AccountCreateEvent;
+import com.hz.event.sourcing.event.MoneyDepositEvent;
+import com.hz.event.sourcing.event.MoneyTransferEvent;
+import com.hz.event.sourcing.processor.DomainEventProcessor;
+import com.hz.event.sourcing.state.AccountAggregate;
 import java.math.BigDecimal;
 import java.util.Date;
 import org.junit.jupiter.api.BeforeEach;

@@ -55,7 +55,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.promise.App</mainClass>
+                  <mainClass>com.hz.promise.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

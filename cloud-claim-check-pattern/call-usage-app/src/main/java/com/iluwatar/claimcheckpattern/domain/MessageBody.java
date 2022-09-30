@@ -22,7 +22,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package com.iluwatar.claimcheckpattern.domain;
+package com.hz.claimcheckpattern.domain;
 
 import java.util.List;
 import lombok.AllArgsConstructor;

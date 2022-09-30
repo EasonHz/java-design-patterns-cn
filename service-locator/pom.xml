@@ -50,7 +50,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.servicelocator.App</mainClass>
+                  <mainClass>com.hz.servicelocator.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

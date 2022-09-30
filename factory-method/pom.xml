@@ -50,7 +50,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.factory.method.App</mainClass>
+                  <mainClass>com.hz.factory.method.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

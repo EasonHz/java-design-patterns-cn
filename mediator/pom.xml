@@ -60,7 +60,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.mediator.App</mainClass>
+                  <mainClass>com.hz.mediator.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

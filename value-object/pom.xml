@@ -61,7 +61,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.value.object.App</mainClass>
+                  <mainClass>com.hz.value.object.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

@@ -50,7 +50,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.singleton.App</mainClass>
+                  <mainClass>com.hz.singleton.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

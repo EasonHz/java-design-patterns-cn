@@ -69,7 +69,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.cqrs.app.App</mainClass>
+                  <mainClass>com.hz.cqrs.app.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

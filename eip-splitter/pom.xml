@@ -81,7 +81,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.eip.splitter.App</mainClass>
+                  <mainClass>com.hz.eip.splitter.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

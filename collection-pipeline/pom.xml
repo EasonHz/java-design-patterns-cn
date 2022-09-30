@@ -50,7 +50,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.collectionpipeline.App</mainClass>
+                  <mainClass>com.hz.collectionpipeline.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

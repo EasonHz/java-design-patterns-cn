@@ -77,7 +77,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.metamapping.App</mainClass>
+                  <mainClass>com.hz.metamapping.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

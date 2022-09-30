@@ -55,7 +55,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.resource.acquisition.is.initialization.App</mainClass>
+                  <mainClass>com.hz.resource.acquisition.is.initialization.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

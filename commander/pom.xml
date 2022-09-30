@@ -51,7 +51,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.commander.AppEmployeeDbFailCases</mainClass>
+                  <mainClass>com.hz.commander.AppEmployeeDbFailCases</mainClass>
                 </manifest>
               </archive>
               <finalName>${project.artifactId}-EmployeeDBFailCase</finalName>
@@ -62,7 +62,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.commander.AppMessagingFailCases</mainClass>
+                  <mainClass>com.hz.commander.AppMessagingFailCases</mainClass>
                 </manifest>
               </archive>
               <finalName>${project.artifactId}-MessagingFailCase</finalName>
@@ -73,7 +73,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.commander.AppPaymentFailCases</mainClass>
+                  <mainClass>com.hz.commander.AppPaymentFailCases</mainClass>
                 </manifest>
               </archive>
               <finalName>${project.artifactId}-PaymentFailCase</finalName>
@@ -84,7 +84,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.commander.AppQueueFailCases</mainClass>
+                  <mainClass>com.hz.commander.AppQueueFailCases</mainClass>
                 </manifest>
               </archive>
               <finalName>${project.artifactId}-QueueFailCase</finalName>
@@ -95,7 +95,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.commander.AppShippingFailCases</mainClass>
+                  <mainClass>com.hz.commander.AppShippingFailCases</mainClass>
                 </manifest>
               </archive>
               <finalName>${project.artifactId}-ShippingFailCase</finalName>

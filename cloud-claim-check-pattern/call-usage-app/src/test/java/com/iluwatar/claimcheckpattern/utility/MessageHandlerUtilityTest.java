@@ -22,13 +22,13 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package com.iluwatar.claimcheckpattern.utility;
+package com.hz.claimcheckpattern.utility;
 
 import com.azure.storage.blob.BlobClient;
 import com.azure.storage.blob.BlobContainerClient;
 import com.azure.storage.blob.BlobServiceClient;
-import com.iluwatar.claimcheckpattern.domain.*;
-import com.iluwatar.claimcheckpattern.utility.MessageHandlerUtility;
+import com.hz.claimcheckpattern.domain.*;
+import com.hz.claimcheckpattern.utility.MessageHandlerUtility;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

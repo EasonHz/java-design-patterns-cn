@@ -25,7 +25,7 @@
 
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ page import="com.iluwatar.compositeview.ClientPropertiesBean"%>
+<%@ page import="com.hz.compositeview.ClientPropertiesBean"%>
 <html>
 <head>
     <style>

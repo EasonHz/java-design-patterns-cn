@@ -50,7 +50,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.memento.App</mainClass>
+                  <mainClass>com.hz.memento.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

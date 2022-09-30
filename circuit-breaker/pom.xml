@@ -50,7 +50,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.circuitbreaker.App</mainClass>
+                  <mainClass>com.hz.circuitbreaker.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

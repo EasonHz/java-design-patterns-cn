@@ -50,7 +50,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.flyweight.App</mainClass>
+                  <mainClass>com.hz.flyweight.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

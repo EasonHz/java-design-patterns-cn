@@ -70,7 +70,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.information.microservices.InformationApplication</mainClass>
+                  <mainClass>com.hz.information.microservices.InformationApplication</mainClass>
                 </manifest>
               </archive>
             </configuration>

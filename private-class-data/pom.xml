@@ -55,7 +55,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.privateclassdata.App</mainClass>
+                  <mainClass>com.hz.privateclassdata.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

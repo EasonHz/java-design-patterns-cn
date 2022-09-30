@@ -22,20 +22,20 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package com.iluwatar.claimcheckpattern.consumer.callcostprocessor.functions;
+package com.hz.claimcheckpattern.consumer.callcostprocessor.functions;
 
 import com.azure.core.util.BinaryData;
 import com.azure.core.util.serializer.TypeReference;
 import com.azure.messaging.eventgrid.EventGridEvent;
 import com.azure.messaging.eventgrid.systemevents.SubscriptionValidationEventData;
 import com.azure.messaging.eventgrid.systemevents.SubscriptionValidationResponse;
-import com.iluwatar.claimcheckpattern.domain.Message;
-import com.iluwatar.claimcheckpattern.domain.MessageBody;
-import com.iluwatar.claimcheckpattern.domain.MessageHeader;
-import com.iluwatar.claimcheckpattern.domain.MessageReference;
-import com.iluwatar.claimcheckpattern.domain.UsageCostDetail;
-import com.iluwatar.claimcheckpattern.domain.UsageDetail;
-import com.iluwatar.claimcheckpattern.utility.MessageHandlerUtility;
+import com.hz.claimcheckpattern.domain.Message;
+import com.hz.claimcheckpattern.domain.MessageBody;
+import com.hz.claimcheckpattern.domain.MessageHeader;
+import com.hz.claimcheckpattern.domain.MessageReference;
+import com.hz.claimcheckpattern.domain.UsageCostDetail;
+import com.hz.claimcheckpattern.domain.UsageDetail;
+import com.hz.claimcheckpattern.utility.MessageHandlerUtility;
 import com.microsoft.azure.functions.ExecutionContext;
 import com.microsoft.azure.functions.HttpMethod;
 import com.microsoft.azure.functions.HttpRequestMessage;

@@ -50,7 +50,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.featuretoggle.App</mainClass>
+                  <mainClass>com.hz.featuretoggle.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

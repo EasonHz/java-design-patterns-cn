@@ -55,7 +55,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.business.delegate.App</mainClass>
+                  <mainClass>com.hz.business.delegate.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

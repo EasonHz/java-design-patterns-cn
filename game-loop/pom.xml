@@ -50,7 +50,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.gameloop.App</mainClass>
+                  <mainClass>com.hz.gameloop.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

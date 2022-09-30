@@ -55,7 +55,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.twin.App</mainClass>
+                  <mainClass>com.hz.twin.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

@@ -50,7 +50,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.priority.queue.Application</mainClass>
+                  <mainClass>com.hz.priority.queue.Application</mainClass>
                 </manifest>
               </archive>
             </configuration>

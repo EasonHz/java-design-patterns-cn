@@ -50,7 +50,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.callback.App</mainClass>
+                  <mainClass>com.hz.callback.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

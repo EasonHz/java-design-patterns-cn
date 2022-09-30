@@ -50,7 +50,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.strangler.App</mainClass>
+                  <mainClass>com.hz.strangler.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

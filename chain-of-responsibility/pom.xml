@@ -50,7 +50,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.chain.App</mainClass>
+                  <mainClass>com.hz.chain.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

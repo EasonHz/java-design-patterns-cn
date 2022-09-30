@@ -65,7 +65,7 @@ public class BookViewModel {
 
 ```xml
 <zk>
-<window title="List of Books" border="normal" width="600px" apply="org.zkoss.bind.BindComposer" viewModel="@id('vm') @init('com.iluwatar.model.view.viewmodel.BookViewModel')">
+<window title="List of Books" border="normal" width="600px" apply="org.zkoss.bind.BindComposer" viewModel="@id('vm') @init('com.hz.model.view.viewmodel.BookViewModel')">
     <vbox hflex="true">
         <listbox model="@bind(vm.bookList)" selectedItem="@bind(vm.selectedBook)" height="400px" mold="paging">
             <listhead>

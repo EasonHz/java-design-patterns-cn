@@ -39,7 +39,7 @@
       <pattern>%-5p [%d{ISO8601,UTC}] %c: %m%n</pattern>
     </encoder>
   </appender>
-  <logger name="com.iluwatar" additivity="false">
+  <logger name="com.hz" additivity="false">
     <level value="DEBUG" />
     <appender-ref ref="STDOUT" />
   </logger>

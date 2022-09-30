@@ -22,7 +22,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package com.iluwatar.claimcheckpattern.utility;
+package com.hz.claimcheckpattern.utility;
 
 import com.azure.core.credential.AzureKeyCredential;
 import com.azure.core.util.BinaryData;

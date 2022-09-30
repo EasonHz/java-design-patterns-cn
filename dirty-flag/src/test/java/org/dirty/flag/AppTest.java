@@ -24,7 +24,7 @@
  */
 package org.dirty.flag;
 
-import com.iluwatar.dirtyflag.App;
+import com.hz.dirtyflag.App;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;

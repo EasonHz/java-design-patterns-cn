@@ -59,7 +59,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.filterer.App</mainClass>
+                  <mainClass>com.hz.filterer.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

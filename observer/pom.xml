@@ -60,7 +60,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.observer.App</mainClass>
+                  <mainClass>com.hz.observer.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

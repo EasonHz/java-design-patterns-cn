@@ -51,7 +51,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.guarded.suspension.App</mainClass>
+                  <mainClass>com.hz.guarded.suspension.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

@@ -58,7 +58,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.transactionscript.App</mainClass>
+                  <mainClass>com.hz.transactionscript.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

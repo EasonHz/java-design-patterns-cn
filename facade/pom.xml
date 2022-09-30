@@ -50,7 +50,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.facade.App</mainClass>
+                  <mainClass>com.hz.facade.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

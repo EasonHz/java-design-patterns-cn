@@ -60,7 +60,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.front.controller.App</mainClass>
+                  <mainClass>com.hz.front.controller.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

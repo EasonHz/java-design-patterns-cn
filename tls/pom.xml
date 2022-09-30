@@ -50,7 +50,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.tls.App</mainClass>
+                  <mainClass>com.hz.tls.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

@@ -50,7 +50,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.spatialpartition.App</mainClass>
+                  <mainClass>com.hz.spatialpartition.App</mainClass>
                 </manifest>
               </archive>
             </configuration>

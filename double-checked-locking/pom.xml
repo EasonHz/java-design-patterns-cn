@@ -54,7 +54,7 @@
             <configuration>
               <archive>
                 <manifest>
-                  <mainClass>com.iluwatar.doublechecked.locking.App</mainClass>
+                  <mainClass>com.hz.doublechecked.locking.App</mainClass>
                 </manifest>
               </archive>
             </configuration>
