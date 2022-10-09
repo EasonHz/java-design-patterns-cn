@@ -27,12 +27,16 @@ package com.hz.adapter;
 /**
  * Adapter class. Adapts the interface of the device ({@link FishingBoat}) into {@link RowingBoat}
  * interface expected by the client ({@link Captain}).
+ * 适配器类。将设备接口({@link FishingBoat})适配成客户端({@link Captain})期望的接口{@link RowingBoat}
+ *
+ * @author hz
  */
 public class FishingBoatAdapter implements RowingBoat {
 
-  private final FishingBoat boat = new FishingBoat();
+    private final FishingBoat boat = new FishingBoat();
 
-  public final void row() {
-    boat.sail();
-  }
+    @Override
+    public final void row() {
+        boat.sail();
+    }
 }

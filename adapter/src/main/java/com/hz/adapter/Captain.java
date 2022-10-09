@@ -30,16 +30,22 @@ import lombok.Setter;
 
 /**
  * The Captain uses {@link RowingBoat} to sail. <br> This is the client in the pattern.
+ * 船长使用划船航行，<br> 在这个模式中，船长就是客户端
+ *
+ * @author hz
  */
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
 public final class Captain {
 
-  private RowingBoat rowingBoat;
+    private RowingBoat rowingBoat;
 
-  void row() {
-    rowingBoat.row();
-  }
+    /**
+     * 船长希望`RowingBoat`接口的实现能够移动
+     */
+    void row() {
+        rowingBoat.row();
+    }
 
 }

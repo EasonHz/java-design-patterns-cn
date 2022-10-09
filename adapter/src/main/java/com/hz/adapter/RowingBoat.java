@@ -26,9 +26,15 @@ package com.hz.adapter;
 
 /**
  * The interface expected by the client.<br> A rowing boat is rowed to move.
+ * 客户端需要的接口.<br> 划船被人划动才能移动
+ *
+ * @author hz
  */
 public interface RowingBoat {
 
-  void row();
+    /**
+     * 划动船只
+     */
+    void row();
 
 }

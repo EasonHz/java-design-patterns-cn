@@ -27,14 +27,14 @@ package com.hz.adapter;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * Device class (adaptee in the pattern). We want to reuse this class. Fishing boat moves by
- * sailing.
+ * Device class (adaptee in the pattern). We want to reuse this class. Fishing boat moves by sailing.
+ * 设备类（模式中的适配器）。我们想重用这个类。渔船靠航行前进。
  */
 @Slf4j
 final class FishingBoat {
 
   void sail() {
-    LOGGER.info("The fishing boat is sailing");
+    LOGGER.info("渔船正在航行（移动）");
   }
 
 }
