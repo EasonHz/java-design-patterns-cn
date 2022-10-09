@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author haizhou
+ * @author hz
  * @since 2022/10/8
  */
 public class Drawing {

@@ -1,24 +1,25 @@
-package com.hz.adapter2;
+package com.hz.decorator2;
 
 /**
+ * 圆形
+ *
  * @author hz
- * @since 2022/10/8
  */
-public class Rectangle implements Shape {
+public class Circle implements Shape {
 
     @Override
     public void draw() {
-        System.out.println("画个长方形");
+        System.out.println("画个圈圈");
     }
 
     @Override
     public void resize() {
-        System.out.println("调整长方形大小");
+        System.out.println("调整圆圈的大小");
     }
 
     @Override
     public String description() {
-        return "长方形";
+        return "圆形";
     }
 
     @Override

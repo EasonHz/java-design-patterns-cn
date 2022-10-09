@@ -1,7 +1,7 @@
 package com.hz.adapter2;
 
 /**
- * @author haizhou
+ * @author hz
  * @since 2022/10/8
  */
 public class TriangleAdapter extends Triangle implements Shape {

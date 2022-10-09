@@ -1,4 +1,4 @@
-package com.hz.adapter2;
+package com.hz.decorator2;
 
 /**
  * @author hz
