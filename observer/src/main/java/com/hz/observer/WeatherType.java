@@ -26,26 +26,31 @@ package com.hz.observer;
 
 /**
  * WeatherType enumeration.
+ *
+ * @author hz
  */
 public enum WeatherType {
 
-  SUNNY("Sunny"),
-  RAINY("Rainy"),
-  WINDY("Windy"),
-  COLD("Cold");
+    /**
+     * 天气类型枚举
+     */
+    SUNNY("Sunny"),
+    RAINY("Rainy"),
+    WINDY("Windy"),
+    COLD("Cold");
 
-  private final String description;
+    private final String description;
 
-  WeatherType(String description) {
-    this.description = description;
-  }
+    WeatherType(String description) {
+        this.description = description;
+    }
 
-  public String getDescription() {
-    return this.description;
-  }
+    public String getDescription() {
+        return this.description;
+    }
 
-  @Override
-  public String toString() {
-    return this.name().toLowerCase();
-  }
+    @Override
+    public String toString() {
+        return this.name().toLowerCase();
+    }
 }

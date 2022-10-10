@@ -26,44 +26,47 @@ package com.hz.observer;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * Weather can be observed by implementing {@link WeatherObserver} interface and registering as
- * listener.
+ * Weather通过实现并注册{@link WeatherObserver}接口，来成为监听器
+ * 被观察对象
+ *
+ * @author hz
  */
 @Slf4j
 public class Weather {
 
-  private WeatherType currentWeather;
-  private final List<WeatherObserver> observers;
+    private WeatherType currentWeather;
+    private final List<WeatherObserver> observers;
 
-  public Weather() {
-    observers = new ArrayList<>();
-    currentWeather = WeatherType.SUNNY;
-  }
-
-  public void addObserver(WeatherObserver obs) {
-    observers.add(obs);
-  }
-
-  public void removeObserver(WeatherObserver obs) {
-    observers.remove(obs);
-  }
-
-  /**
-   * Makes time pass for weather.
-   */
-  public void timePasses() {
-    var enumValues = WeatherType.values();
-    currentWeather = enumValues[(currentWeather.ordinal() + 1) % enumValues.length];
-    LOGGER.info("The weather changed to {}.", currentWeather);
-    notifyObservers();
-  }
-
-  private void notifyObservers() {
-    for (var obs : observers) {
-      obs.update(currentWeather);
+    public Weather() {
+        observers = new ArrayList<>();
+        currentWeather = WeatherType.SUNNY;
     }
-  }
+
+    public void addObserver(WeatherObserver obs) {
+        observers.add(obs);
+    }
+
+    public void removeObserver(WeatherObserver obs) {
+        observers.remove(obs);
+    }
+
+    /**
+     * 随着时间的流逝，天气一直在变化
+     */
+    public void timePasses() {
+        var enumValues = WeatherType.values();
+        currentWeather = enumValues[(currentWeather.ordinal() + 1) % enumValues.length];
+        LOGGER.info("天气变成了 {}.", currentWeather);
+        notifyObservers();
+    }
+
+    private void notifyObservers() {
+        for (var obs : observers) {
+            obs.update(currentWeather);
+        }
+    }
 }

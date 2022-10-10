@@ -1,62 +1,39 @@
-/*
- * This project is licensed under the MIT license. Module model-view-viewmodel is using ZK framework licensed under LGPL (see lgpl-3.0.txt).
- *
- * The MIT License
- * Copyright © 2014-2022 Ilkka Seppälä
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- */
 package com.hz.observer.generic;
 
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
- * Generic observer inspired by Java Generics and Collection by {@literal Naftalin & Wadler}.
+ * 抽象出来的，当被观察者状态发生变化时的行为
  *
- * @param <S> Subject
- * @param <O> Observer
- * @param <A> Argument type
+ * @param <S> Subject 被观察对象
+ * @param <O> Observer 观察者
+ * @param <A> Argument type 参数类型
+ * @author hz
  */
 public abstract class Observable<S extends Observable<S, O, A>, O extends Observer<S, O, A>, A> {
 
-  protected final List<O> observers;
+    protected final List<O> observers;
 
-  public Observable() {
-    this.observers = new CopyOnWriteArrayList<>();
-  }
-
-  public void addObserver(O observer) {
-    this.observers.add(observer);
-  }
-
-  public void removeObserver(O observer) {
-    this.observers.remove(observer);
-  }
-
-  /**
-   * Notify observers.
-   */
-  @SuppressWarnings("unchecked")
-  public void notifyObservers(A argument) {
-    for (var observer : observers) {
-      observer.update((S) this, argument);
+    public Observable() {
+        this.observers = new CopyOnWriteArrayList<>();
     }
-  }
+
+    public void addObserver(O observer) {
+        this.observers.add(observer);
+    }
+
+    public void removeObserver(O observer) {
+        this.observers.remove(observer);
+    }
+
+    /**
+     * Notify observers.
+     */
+    @SuppressWarnings("unchecked")
+    public void notifyObservers(A argument) {
+        for (var observer : observers) {
+            observer.update((S) this, argument);
+        }
+    }
 }

@@ -25,10 +25,17 @@
 package com.hz.observer;
 
 /**
- * Observer interface.
+ * 观察者接口
+ *
+ * @author hz
  */
 public interface WeatherObserver {
 
-  void update(WeatherType currentWeather);
+    /**
+     * 被观察者转态发生变化时，通知观察者
+     *
+     * @param currentWeather 天气类型
+     */
+    void update(WeatherType currentWeather);
 
 }
