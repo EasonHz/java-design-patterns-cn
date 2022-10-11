@@ -24,22 +24,21 @@
  */
 package com.hz.intercepting.filter;
 
-/**
- * Concrete implementation of filter. This filter checks if the input in the Name field is valid.
- * (alphanumeric)
+/***
+ * 过滤器的具体实现，检查订单名称是否合法
  *
  * @author joshzambales
  */
 public class NameFilter extends AbstractFilter {
 
-  @Override
-  public String execute(Order order) {
-    var result = super.execute(order);
-    var name = order.getName();
-    if (name == null || name.isEmpty() || name.matches(".*[^\\w|\\s]+.*")) {
-      return result + "Invalid name! ";
-    } else {
-      return result;
+    @Override
+    public String execute(Order order) {
+        var result = super.execute(order);
+        var name = order.getName();
+        if (name == null || name.isEmpty() || name.matches(".*[^\\w|\\s]+.*")) {
+            return result + "Invalid name! ";
+        } else {
+            return result;
+        }
     }
-  }
 }

@@ -25,20 +25,19 @@
 package com.hz.intercepting.filter;
 
 /**
- * Concrete implementation of filter This filter is responsible for checking/filtering the input in
- * the address field.
+ * 地址过滤器，负责检查、过滤地址字段中的输入。
  *
- * @author joshzambales
+ * @author hz
  */
 public class AddressFilter extends AbstractFilter {
 
-  @Override
-  public String execute(Order order) {
-    var result = super.execute(order);
-    if (order.getAddress() == null || order.getAddress().isEmpty()) {
-      return result + "Invalid address! ";
-    } else {
-      return result;
+    @Override
+    public String execute(Order order) {
+        var result = super.execute(order);
+        if (order.getAddress() == null || order.getAddress().isEmpty()) {
+            return result + "Invalid address! ";
+        } else {
+            return result;
+        }
     }
-  }
 }

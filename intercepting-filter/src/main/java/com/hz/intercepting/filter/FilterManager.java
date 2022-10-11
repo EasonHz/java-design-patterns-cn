@@ -25,23 +25,23 @@
 package com.hz.intercepting.filter;
 
 /**
- * Filter Manager manages the filters and {@link FilterChain}.
+ * 过滤器管理器管理过滤器和 {@link FilterChain}
  *
  * @author joshzambales
  */
 public class FilterManager {
 
-  private final FilterChain filterChain;
+    private final FilterChain filterChain;
 
-  public FilterManager() {
-    filterChain = new FilterChain();
-  }
+    public FilterManager() {
+        filterChain = new FilterChain();
+    }
 
-  public void addFilter(Filter filter) {
-    filterChain.addFilter(filter);
-  }
+    public void addFilter(Filter filter) {
+        filterChain.addFilter(filter);
+    }
 
-  public String filterRequest(Order order) {
-    return filterChain.execute(order);
-  }
+    public String filterRequest(Order order) {
+        return filterChain.execute(order);
+    }
 }

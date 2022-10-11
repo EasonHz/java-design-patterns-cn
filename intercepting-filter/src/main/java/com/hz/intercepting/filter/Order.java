@@ -32,7 +32,7 @@ public class Order {
   private String name;
   private String contactNumber;
   private String address;
-  private String depositNumber;
+    private String depositNumber;
   private String orderItem;
 
   public Order() {

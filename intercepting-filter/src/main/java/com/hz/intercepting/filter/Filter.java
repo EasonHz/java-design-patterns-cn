@@ -27,28 +27,39 @@ package com.hz.intercepting.filter;
 /**
  * Filters perform certain tasks prior or after execution of request by request handler. In this
  * case, before the request is handled by the target, the request undergoes through each Filter
+ * <p>
+ * 过滤器在请求之前或之后执行，
  *
- * @author joshzambales
+ * @author hz
  */
 public interface Filter {
 
-  /**
-   * Execute order processing filter.
-   */
-  String execute(Order order);
+    /**
+     * 执行订单处理请求
+     *
+     * @param order 订单
+     * @return 执行结果
+     */
+    String execute(Order order);
 
-  /**
-   * Set next filter in chain after this.
-   */
-  void setNext(Filter filter);
+    /**
+     * 设置下一个过滤器
+     *
+     * @param filter 过滤器
+     */
+    void setNext(Filter filter);
 
-  /**
-   * Get next filter in chain after this.
-   */
-  Filter getNext();
+    /**
+     * 获取下一个过滤器
+     *
+     * @return 返回过滤器
+     */
+    Filter getNext();
 
-  /**
-   * Get last filter in the chain.
-   */
-  Filter getLast();
+    /**
+     * 获取过滤链中，最后一个过滤器
+     *
+     * @return 返回过滤器
+     */
+    Filter getLast();
 }

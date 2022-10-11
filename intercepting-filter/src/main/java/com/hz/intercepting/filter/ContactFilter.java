@@ -25,24 +25,22 @@
 package com.hz.intercepting.filter;
 
 /**
- * Concrete implementation of filter This filter checks for the contact field in which it checks if
- * the input consist of numbers and it also checks if the input follows the length constraint (11
- * digits).
+ * 检查联系人字段，检查输入是否由数字组成，并检查输入是否符合长度约束（11位）。
  *
  * @author joshzambales
  */
 public class ContactFilter extends AbstractFilter {
 
-  @Override
-  public String execute(Order order) {
-    var result = super.execute(order);
-    var contactNumber = order.getContactNumber();
-    if (contactNumber == null || contactNumber.isEmpty()
-        || contactNumber.matches(".*[^\\d]+.*")
-        || contactNumber.length() != 11) {
-      return result + "Invalid contact number! ";
-    } else {
-      return result;
+    @Override
+    public String execute(Order order) {
+        var result = super.execute(order);
+        var contactNumber = order.getContactNumber();
+        if (contactNumber == null || contactNumber.isEmpty()
+                || contactNumber.matches(".*[^\\d]+.*")
+                || contactNumber.length() != 11) {
+            return result + "Invalid contact number! ";
+        } else {
+            return result;
+        }
     }
-  }
 }

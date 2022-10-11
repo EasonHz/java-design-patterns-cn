@@ -25,7 +25,7 @@
 package com.hz.intercepting.filter;
 
 /**
- * Concrete implementation of filter This checks for the deposit code.
+ * 过滤器的具体实现，检查订金编号
  *
  * @author joshzambales
  */

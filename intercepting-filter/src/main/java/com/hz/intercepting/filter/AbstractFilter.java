@@ -26,15 +26,17 @@ package com.hz.intercepting.filter;
 
 /**
  * Base class for order processing filters. Handles chain management.
+ * 订单处理过滤器的基类
+ * @author hz
  */
 public abstract class AbstractFilter implements Filter {
 
   private Filter next;
 
-  public AbstractFilter() {
+  protected AbstractFilter() {
   }
 
-  public AbstractFilter(Filter next) {
+  protected AbstractFilter(Filter next) {
     this.next = next;
   }
 

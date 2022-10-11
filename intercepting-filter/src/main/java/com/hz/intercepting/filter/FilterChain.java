@@ -26,34 +26,27 @@ package com.hz.intercepting.filter;
 
 
 /**
- * Filter Chain carries multiple filters and help to execute them in defined order on target.
+ * 过滤器链携带多个过滤器，并按照定义好的顺序执行
  *
  * @author joshzambales
  */
 public class FilterChain {
 
-  private Filter chain;
+    private Filter chain;
 
-
-  /**
-   * Adds filter.
-   */
-  public void addFilter(Filter filter) {
-    if (chain == null) {
-      chain = filter;
-    } else {
-      chain.getLast().setNext(filter);
+    public void addFilter(Filter filter) {
+        if (chain == null) {
+            chain = filter;
+        } else {
+            chain.getLast().setNext(filter);
+        }
     }
-  }
 
-  /**
-   * Execute filter chain.
-   */
-  public String execute(Order order) {
-    if (chain != null) {
-      return chain.execute(order);
-    } else {
-      return "RUNNING...";
+    public String execute(Order order) {
+        if (chain != null) {
+            return chain.execute(order);
+        } else {
+            return "RUNNING...";
+        }
     }
-  }
 }

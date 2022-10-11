@@ -25,7 +25,7 @@
 package com.hz.intercepting.filter;
 
 /**
- * Concrete implementation of filter. This checks for the order field.
+ * 检查订单字段
  *
  * @author joshzambales
  */
