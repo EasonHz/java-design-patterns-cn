@@ -25,21 +25,23 @@
 package com.hz.strategy;
 
 /**
- * DragonSlayer uses different strategies to slay the dragon.
+ * 屠龙勇士使用不同的策略屠龙
+ *
+ * @author hz
  */
 public class DragonSlayer {
 
-  private DragonSlayingStrategy strategy;
+    private DragonSlayingStrategy strategy;
 
-  public DragonSlayer(DragonSlayingStrategy strategy) {
-    this.strategy = strategy;
-  }
+    public DragonSlayer(DragonSlayingStrategy strategy) {
+        this.strategy = strategy;
+    }
 
-  public void changeStrategy(DragonSlayingStrategy strategy) {
-    this.strategy = strategy;
-  }
+    public void changeStrategy(DragonSlayingStrategy strategy) {
+        this.strategy = strategy;
+    }
 
-  public void goToBattle() {
-    strategy.execute();
-  }
+    public void goToBattle() {
+        strategy.execute();
+    }
 }

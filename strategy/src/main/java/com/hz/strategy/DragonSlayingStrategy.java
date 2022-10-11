@@ -26,10 +26,16 @@ package com.hz.strategy;
 
 /**
  * Strategy interface.
+ * 屠龙策略接口
+ *
+ * @author hz
  */
 @FunctionalInterface
 public interface DragonSlayingStrategy {
 
-  void execute();
+    /**
+     * 执行屠龙的方法
+     */
+    void execute();
 
 }

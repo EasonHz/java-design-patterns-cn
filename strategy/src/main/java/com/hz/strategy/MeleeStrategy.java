@@ -27,13 +27,15 @@ package com.hz.strategy;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * Melee strategy.
+ * 近战策略
+ *
+ * @author hz
  */
 @Slf4j
 public class MeleeStrategy implements DragonSlayingStrategy {
 
-  @Override
-  public void execute() {
-    LOGGER.info("With your Excalibur you sever the dragon's head!");
-  }
+    @Override
+    public void execute() {
+        LOGGER.info("用你的大宝剑，砍下龙头！");
+    }
 }
