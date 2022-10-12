@@ -26,18 +26,23 @@ package com.hz.builder;
 
 /**
  * HairColor enumeration.
+ *
+ * @author hz
  */
 public enum HairColor {
 
-  WHITE,
-  BLOND,
-  RED,
-  BROWN,
-  BLACK;
+    /**
+     * 头发颜色枚举类
+     */
+    WHITE,
+    BLOND,
+    RED,
+    BROWN,
+    BLACK;
 
-  @Override
-  public String toString() {
-    return name().toLowerCase();
-  }
+    @Override
+    public String toString() {
+        return name().toLowerCase();
+    }
 
 }

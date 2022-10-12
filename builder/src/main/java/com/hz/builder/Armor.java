@@ -27,20 +27,26 @@ package com.hz.builder;
 import lombok.AllArgsConstructor;
 
 /**
- * Armor enumeration.
+ * 盔甲枚举类
+ *
+ * @author hz
  */
 @AllArgsConstructor
 public enum Armor {
 
-  CLOTHES("clothes"),
-  LEATHER("leather"),
-  CHAIN_MAIL("chain mail"),
-  PLATE_MAIL("plate mail");
+    //衣服
+    CLOTHES("clothes"),
+    //皮革
+    LEATHER("leather"),
+    //锁子甲
+    CHAIN_MAIL("chain mail"),
+    //铠甲
+    PLATE_MAIL("铠甲");
 
-  private final String title;
+    private final String title;
 
-  @Override
-  public String toString() {
-    return title;
-  }
+    @Override
+    public String toString() {
+        return title;
+    }
 }

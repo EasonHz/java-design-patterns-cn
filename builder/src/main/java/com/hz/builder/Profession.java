@@ -26,13 +26,18 @@ package com.hz.builder;
 
 /**
  * Profession enumeration.
+ *
+ * @author hz
  */
 public enum Profession {
 
-  WARRIOR, THIEF, MAGE, PRIEST;
+    /**
+     * 职业枚举类
+     */
+    WARRIOR, THIEF, MAGE, PRIEST;
 
-  @Override
-  public String toString() {
-    return name().toLowerCase();
-  }
+    @Override
+    public String toString() {
+        return name().toLowerCase();
+    }
 }

@@ -28,20 +28,25 @@ import lombok.AllArgsConstructor;
 
 /**
  * HairType enumeration.
+ *
+ * @author hz
  */
 @AllArgsConstructor
 public enum HairType {
 
-  BALD("bald"),
-  SHORT("short"),
-  CURLY("curly"),
-  LONG_STRAIGHT("long straight"),
-  LONG_CURLY("long curly");
+    /**
+     * 头发类型
+     */
+    BALD("bald"),
+    SHORT("short"),
+    CURLY("curly"),
+    LONG_STRAIGHT("long straight"),
+    LONG_CURLY("long curly");
 
-  private final String title;
+    private final String title;
 
-  @Override
-  public String toString() {
-    return title;
-  }
+    @Override
+    public String toString() {
+        return title;
+    }
 }

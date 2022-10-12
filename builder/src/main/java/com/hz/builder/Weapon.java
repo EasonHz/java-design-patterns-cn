@@ -26,13 +26,18 @@ package com.hz.builder;
 
 /**
  * Weapon enumeration.
+ *
+ * @author hz
  */
 public enum Weapon {
 
-  DAGGER, SWORD, AXE, WARHAMMER, BOW;
+    /**
+     * 武器枚举类
+     */
+    DAGGER, SWORD, AXE, WARHAMMER, BOW;
 
-  @Override
-  public String toString() {
-    return name().toLowerCase();
-  }
+    @Override
+    public String toString() {
+        return name().toLowerCase();
+    }
 }
