@@ -1,15 +1,18 @@
 package com.hz.composite4;
+
 /**
  * 视频文件类
- * @author Cnc_hzf
- * @date 2022/4/25 19:32
+ *
+ * @author hz
  */
 public class VideoFile extends AbstractFile {
-    private String name;
+
+    private final String name;
 
     VideoFile(String name) {
         this.name = name;
     }
+
     @Override
     public void add(AbstractFile file) {
         System.out.println("不支持此方法");

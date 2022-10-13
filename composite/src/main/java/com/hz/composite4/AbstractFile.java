@@ -9,22 +9,22 @@ public abstract class AbstractFile {
     /**
      * 添加文件
      *
-     * @param file
+     * @param file 文件
      */
     public abstract void add(AbstractFile file);
 
     /**
      * 删除文件
      *
-     * @param file
+     * @param file 文件
      */
     public abstract void remove(AbstractFile file);
 
     /**
      * 获取第i个文件
      *
-     * @param i
-     * @return
+     * @param i 文件序号
+     * @return 返回文件
      */
     public abstract AbstractFile getChild(int i);
 

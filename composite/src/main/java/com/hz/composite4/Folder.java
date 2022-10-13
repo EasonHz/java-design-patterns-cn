@@ -4,12 +4,13 @@ import java.util.ArrayList;
 
 /**
  * 文件夹类
- * @author Cnc_hzf
- * @date 2022/4/25 19:34
+ *
+ * @author hz
  */
 public class Folder extends AbstractFile {
 
     private final String name;
+
     private final ArrayList<AbstractFile> fileList = new ArrayList<>();
 
     Folder(String name) {

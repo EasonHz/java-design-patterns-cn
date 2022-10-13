@@ -1,8 +1,9 @@
 package com.hz.composite4;
+
 /**
  * 客户端测试类
- * @author Cnc_hzf
- * @date 2022/4/25 19:37
+ *
+ * @author hz
  */
 public class Client {
     public static void main(String[] args) {

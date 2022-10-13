@@ -6,6 +6,7 @@ package com.hz.composite4;
  * @author hz
  */
 public class TextFile extends AbstractFile {
+
     private final String name;
 
     TextFile(String name) {
