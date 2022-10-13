@@ -27,7 +27,8 @@ package com.hz.composite;
 import java.util.List;
 
 /**
- * Word.
+ * 单词.
+ * @author hz
  */
 public class Word extends LetterComposite {
 

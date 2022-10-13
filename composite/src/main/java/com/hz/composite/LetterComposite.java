@@ -29,6 +29,7 @@ import java.util.List;
 
 /**
  * Composite interface.
+ * @author hz
  */
 public abstract class LetterComposite {
 

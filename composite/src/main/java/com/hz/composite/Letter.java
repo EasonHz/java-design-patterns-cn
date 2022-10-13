@@ -27,7 +27,8 @@ package com.hz.composite;
 import lombok.RequiredArgsConstructor;
 
 /**
- * Letter.
+ * 信
+ * @author hz
  */
 @RequiredArgsConstructor
 public class Letter extends LetterComposite {

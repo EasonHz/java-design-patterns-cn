@@ -27,7 +27,8 @@ package com.hz.composite;
 import java.util.List;
 
 /**
- * Sentence.
+ * 句子.
+ * @author hz
  */
 public class Sentence extends LetterComposite {
 
