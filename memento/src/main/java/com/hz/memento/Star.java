@@ -24,8 +24,11 @@
  */
 package com.hz.memento;
 
+import lombok.Data;
+
 /**
- * Star uses "mementos" to store and restore state.
+ * {@link Star} uses "mementos" to store and restore state.
+ * @author hz
  */
 public class Star {
 
@@ -93,34 +96,11 @@ public class Star {
   /**
    * StarMemento implementation.
    */
+  @Data
   private static class StarMementoInternal implements StarMemento {
-
     private StarType type;
     private int ageYears;
     private int massTons;
-
-    public StarType getType() {
-      return type;
-    }
-
-    public void setType(StarType type) {
-      this.type = type;
-    }
-
-    public int getAgeYears() {
-      return ageYears;
-    }
-
-    public void setAgeYears(int ageYears) {
-      this.ageYears = ageYears;
-    }
-
-    public int getMassTons() {
-      return massTons;
-    }
-
-    public void setMassTons(int massTons) {
-      this.massTons = massTons;
-    }
   }
+
 }

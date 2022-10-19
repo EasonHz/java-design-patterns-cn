@@ -26,6 +26,7 @@ package com.hz.memento;
 
 /**
  * External interface to memento.
+ * @author hz
  */
 public interface StarMemento {
 

@@ -28,6 +28,9 @@ package com.hz.memento;
  * StarType enumeration.
  */
 public enum StarType {
+  /**
+   * 恒星类型枚举
+   */
   SUN("sun"),
   RED_GIANT("red giant"),
   WHITE_DWARF("white dwarf"),
